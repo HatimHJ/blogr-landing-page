@@ -8,6 +8,10 @@ import hamburger from "./icon-hamburger.svg";
 import arrow_Mb from "./icon-arrow-dark.svg";
 import arrow_Dt from "./icon-arrow-light.svg";
 
+// editor
+import editorDt from "./illustration-editor-desktop.svg";
+import editorMb from "./illustration-editor-mobile.svg";
+
 export {
   logo,
 
@@ -17,5 +21,8 @@ export {
   close,
   hamburger,
   arrow_Mb,
-  arrow_Dt
+  arrow_Dt,
+
+  editorDt,
+  editorMb
 }
