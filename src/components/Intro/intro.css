@@ -1,0 +1,50 @@
+.intro{
+  background: rgb(240,152,127);
+  background: url(/src/assets/bg-pattern-intro-mobile.svg),linear-gradient(180deg, rgb(240 152 127 / 100%) 0%, rgb(255 61 84 / 100%) 100%);
+  min-height: 100vh;
+  background-position: 35% 30%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 100px;
+}
+
+@media (min-width:768px) {
+  .intro{
+    background-size: 200%;
+    background-image: url(/src/assets/bg-pattern-intro-desktop.svg),linear-gradient(90deg, rgba(240,152,127,1) 0%, rgba(255,61,84,1) 60%);
+    background-position: 30% 50%;
+  }
+}
+
+/* dropDown */
+.close > .dropdownBox {
+  height: 0px;
+  overflow:hidden;
+  padding: 0;
+}
+
+/* nav link arrow rotaition */
+.close .arrow{
+  transform: rotate(0deg);
+}
+.arrow{
+  transform: rotate(180deg);
+  transition: all .4s;
+}
+
+.btn-1{
+  background-color: white;
+  border-radius: 20px;
+  @apply text-red-500;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid white;
+}
+.btn-2{
+  background-color: transparent;
+  border-radius: 20px;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid white;
+}
